@@ -9,6 +9,6 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to hello-world3!');
+    expect(page.getTitleText()).toEqual('Welcome to angular2.0!');
   });
 });
